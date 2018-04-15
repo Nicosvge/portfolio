@@ -1,0 +1,115 @@
+html{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+     background-color: #FFF;
+    
+}
+
+#banniere{
+    background-image: url("../images/banniere.png");
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: row;
+
+}
+
+#truc{
+    opacity: inherit;
+    opacity: 1;
+    width : 15vw;
+    background-color: #FFF;
+    padding-bottom: 43vh;
+    margin-top: 10vh;
+    margin-left: 1vw;
+    
+
+    
+}
+
+#truc p{
+     padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+#rideau{
+    padding-left: 85vw;
+}
+
+#wrap-ban{
+   background-image:linear-gradient(to right, rgba(10,39,49,0.5),rgba(1,52,103,0.4));
+    width: 100vw;
+}
+
+.element{
+	
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    
+	
+}
+
+.description{
+    padding: 2%;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    width: 90%;
+   /* background-image:linear-gradient(60deg, #2C8B92, #013567);*/
+    /*background-color: rgba(10,39,49);*/
+   /*  background-image:linear-gradient(60deg, rgba(10,39,49),rgba(1,52,103));*/
+    /*background-color: #373737;*/
+    background-image:linear-gradient(60deg, #303030,#3E3E3E);
+    
+}
+
+
+.portfolioGeneral{
+	display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   margin: 1%;
+    width: 98%;
+    box-shadow: 1px 5px 10px 3px #888888;
+    background-color: transparent;
+}
+
+.portfolioGeneral img{
+    width: 100%;
+    height: auto;
+    
+}
+
+footer{
+    background-color: #54585A;
+}
+
+
+#wrap-footer{
+    background-image:linear-gradient(to right, rgba(10,39,49,0.5),rgba(1,52,103,0.4));
+    padding-top: 6%;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 780px) {
+   .presentationProf{
+        width: 90%;
+   }
+   .presentationProf a{
+        font-size: 16px;
+   }
+}
