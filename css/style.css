@@ -160,11 +160,16 @@ hr{
     width: 20%;
 }
 #green-arrow {
-    margin-top: 10%;
+    margin-top: 30%;
     margin-left: 35%;
 }
 #green-arrow img{
     width: 30%;
+}
+
+.description a {
+    text-decoration: none;
+    color: #08D013;
 }
 @media only screen and (max-width: 780px) {
    .presentationProf{
