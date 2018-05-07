@@ -50,7 +50,7 @@ body{
     padding-right: 5%;
     text-align: center;
     font-family: 'Abel', sans-serif;
-    font-size: 40px;
+    font-size: 250%;
 }
 #rideau{
     padding-left: 85vw;
@@ -58,7 +58,6 @@ body{
 
 #wrap-ban{
    background-image:linear-gradient(to right, rgba(10,39,49,0.5),rgba(0,0,0,0.5));
-
     width: 100vw;
 }
 
@@ -67,9 +66,7 @@ body{
 	width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: white;
-    
-	
+     background-image:linear-gradient(to right,#04A763,#08D013,#04A763);
 }
 
 .description{
@@ -94,7 +91,7 @@ body{
 
 
 
-.portfolioGeneral{
+#portfolioGeneral{
 	display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -104,25 +101,28 @@ body{
     background-color: transparent;
 }
 
-.portfolioGeneral img{
+#portfolioGeneral img{
     width: 100%;
     height: auto;
     
 }
 
+
+
+
 footer{
-    background-image: url("../images/banniere.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image:linear-gradient(60deg, #303030,#3E3E3E);
+    padding-top: 3%;
+    padding-bottom: 1%;
+    width: 100%;
+    font-family: 'Abel', sans-serif;
 }
 
-
-#wrap-footer{
-    background-image:linear-gradient(to right, rgba(10,39,49,0.5),rgba(1,52,103,0.4));
-    padding-top: 8%;
-    width: 100%;
+#text_footer{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 28px;
 }
 
 h1{
@@ -134,6 +134,18 @@ background-image: -webkit-linear-gradient(60deg,#08D013,#04A763);
     background-clip: text;
 }
 
+#endline{
+    background-image:linear-gradient(to right,#04A763,#08D013,#04A763);
+    padding-top: 2px;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+.separation_line{
+    padding-top: 4px;
+}
 
 #green-arrow {
     margin-left: 35%;
